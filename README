@@ -1,27 +1,2 @@
 ##Introduction:
-Eclipser will automatically convert Eclipse launch configurations into IntelliJ IDEA configurations:
-* local Java application Eclipse launcher will be converted into run configuration
-* program launch Eclipse launcher will be converted into external tool in Tools menu
-* Maven launch configuration will be converted into Maven run configuration[experimental]
-
-##How to use:
-Eclipser is available in Project and Commander views.
-Context menu for supported launch files will contain "Convert with Eclipser" item.
-
-##Functionality limitations:
-* Current support for one Eclipse macro only: 
-	- $workspace_loc
-* Current support for the following Eclipse launch configurations:
-	- local Java application - converted to run configuration
-	- program launch - converted to external tool
-	- Maven launch - converted to Maven run configuration
-
-##Known issues:
-* None
-	
-##Disclaimer:
-* Plugin is currently in beta. Please report any errors and suggestions to the link below.
-
-##Support:
-* Email: mclovin@kukido.com
-* Support tickets: https://github.com/kukido/eclipser/issues
+Sample project for http://devnet.jetbrains.com/community/idea/open_api_and_plugin_development forum.

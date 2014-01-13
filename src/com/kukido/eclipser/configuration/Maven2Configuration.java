@@ -66,7 +66,8 @@ public class Maven2Configuration implements Configuration {
 
     @Override
     public Command getCommand() throws EclipserException {
-        checkMavenPluginStatus();
+        // commented out for the purpose of test case failure demonstration
+        //checkMavenPluginStatus();
         return new AddMaven2ConfigurationCommand(this);
     }
 
